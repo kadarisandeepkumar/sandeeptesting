@@ -10,7 +10,7 @@ public class firstclass {
 		driver=new FirefoxDriver();
 		driver.get("https://www.flipkart.com");
 		
-		
+		driver.getCurrentUrl();
 	}
 
 	}
